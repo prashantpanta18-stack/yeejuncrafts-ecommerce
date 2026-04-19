@@ -128,3 +128,13 @@
     @apply font-sans;
   }
 }
+
+/* Custom Marquee Animation */
+@keyframes custom-marquee-scroll {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
